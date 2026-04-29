@@ -119,11 +119,11 @@ This test plan covers end-to-end validation of the Workbench application across 
 |---|---|---|
 | 1 | Open settings and verify all config sections load | UI |
 | 2 | Update GitHub configuration and save | UI + API |
-| 3 | Validate `POST /workbench/config/github/set` | API |
+| 3 | Validate `POST /workbench/config/github/` | API |
 | 4 | Update Jira configuration and save | UI + API |
-| 5 | Validate `POST /workbench/config/jira/set` | API |
+| 5 | Validate `POST /workbench/config/jira/` | API |
 | 6 | Update LLM configuration and save | UI + API |
-| 7 | Validate `POST /workbench/config/llm/set` | API |
+| 7 | Validate `POST /workbench/config/llm/` | API |
 
 ---
 
@@ -188,20 +188,28 @@ This test plan covers end-to-end validation of the Workbench application across 
 
 | Endpoint | Method | Feature |
 |---|---|---|
-| `/workbench/insert-project-details` | POST | Create project |
-| `/workbench/get-all-project-details` | GET | Get all projects |
+| `/workbench/insert-new-product` | POST | Create project |
+| `/api/workbench/get-all-project-details` | GET | Get all projects |
 | `/workbench/insert-project-jira-bugs` | POST | Link bugs |
 | `/workbench/get-project-jira-bugs` | GET | Get linked bugs |
 | `/workbench/update-project-status` | GET | Update status |
-| `/workbench/config/github/set` | POST | Set GitHub config |
-| `/workbench/config/jira/set` | POST | Set Jira config |
+| `/workbench/config/github/tokens` | POST | Set GitHub config |
+| `/workbench/config/jira/tokens` | POST | Set Jira config |
 | `/workbench/config/llm/set` | POST | Set LLM config |
 | `/github/branches` | GET | List branches |
 | `/github/commits` | GET | List commits |
-| `/github/compare` | GET | Compare branches |
+| `/github/github/compare` | GET | Compare branches |
 | `/jira/issues` | GET | Fetch Jira issues |
-| `/llm/generate_gh_branch_name` | GET | Generate branch name |
+| `/llm/generate_jira_branch_name` | GET | Generate branch name |
 | `/llm/jira-cherry-pick-commits` | POST | Cherry-pick suggestions |
+| `/analytics/developers/metrics` | GET | Performance Metrics |
+| `/workbench/license/verify` | GET | License Verify |
+| `workbench/available-repos` | GET | Available Repos |
+| `/workbench/available-jira-boards` | GET | Available Jira Boards |
+| `/workbench/config/ui/review_forms` | GET | Selfreview form |
+| `/workbench/review_form/save_draft` | POST | Save Draft |
+|` /workbench/review_form/submit` | POST | Submit Review |
+
 
 ---
 
