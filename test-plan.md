@@ -19,7 +19,6 @@ This test plan covers end-to-end validation of the Workbench application across 
 
 ### Out of Scope
 
-- Performance / load testing
 - Advanced security testing
 - Authentication testing (not part of current system)
 
