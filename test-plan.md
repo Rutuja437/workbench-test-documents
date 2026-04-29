@@ -216,7 +216,7 @@ This test plan covers end-to-end validation of the Workbench application across 
 
 ## 8. Notes
 
-- This plan is aligned with actual application features and API endpoints
+- This plan is aligned with actual application features 
 - Authentication is not included as it is not part of the current system
 - Test scenarios will be refined further as specifications are finalized
 - Detailed test cases will be derived from this plan in the next phase
