@@ -95,7 +95,7 @@ This test plan covers end-to-end validation of the Workbench application across 
 | 3 | Apply filter by QA role | UI + API |
 | 4 | Validate API response for filtered data | API |
 | 5 | Verify correct data is displayed after filtering | UI |
-| 6 | Verify spider/radar chart renders correctly | UI |
+| 6 | Verify Performance Summary QA Summary/Developer Summary | UI |
 
 ---
 
