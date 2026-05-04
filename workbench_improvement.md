@@ -99,25 +99,6 @@ Example:
 
 ---
 
-### 6. Improve Performance Assessment Feature
-
-Current:
-
-* Only shows final score
-
-Enhancements:
-
-* Add basic metrics (commits, bugs fixed, etc.)
-* Provide simple explanation for score
-
-Example:
-
-> Score based on commits and bug resolution activity
-
-**Why it matters:**
-
-* Builds user trust
-* Makes AI feature useful instead of confusing
 
 ---
 
@@ -141,12 +122,6 @@ Enhancements:
 * Improves reliability
 
 ---
-
-## What to Avoid
-
-* Do not add new features before fixing core issues
-* Do not focus only on UI improvements
-* Do not overcomplicate AI features
 
 **Focus should be on:**
 
