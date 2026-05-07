@@ -140,8 +140,6 @@ Used for:
 
 ### 3. Hotfix Branch Creation
 
-Used to isolate a production fix from the customer release branch.
-
 ```bash id="ocjlwm"
 git checkout release-airtel-1.0
 git checkout -b hotfix-airtel-1.0-BUG-101
