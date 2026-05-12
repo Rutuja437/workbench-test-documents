@@ -23,8 +23,6 @@ The application should support:
 - Notifications
 - Enterprise dashboards
 
-Do NOT focus on complete release management for now.
-
 The primary focus is ONLY:
 
 Production Issue → Hotfix → QA → Deployment → Merge Back
