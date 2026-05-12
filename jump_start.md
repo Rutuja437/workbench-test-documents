@@ -45,15 +45,6 @@ The scope of the project includes:
 - Activity tracking
 - Audit visibility
 
-The project currently does NOT include:
-
-- Full release train management
-- Version planning
-- Sprint planning
-- Feature release workflows
-- Large-scale release orchestration
-
-
 ---
 
 # 3. BUSINESS PROBLEM
