@@ -21,7 +21,7 @@ Verify that the AI Chat Panel accepts user prompts, displays responses, and beha
 
 ---
 
-# Business Flow
+# Flow
 
 ```mermaid
 flowchart TD
