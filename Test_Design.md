@@ -23,31 +23,27 @@ Verify that the AI Chat Panel accepts user prompts, displays responses, and beha
 
 # Business Flow
 
-User opens Dashboard
-        │
-        ▼
-AI Chat Panel loads
-        │
-        ▼
-Verify assistant is ready
-        │
-        ▼
-User enters prompt
-        │
-        ▼
-Click Send
-        │
-        ▼
-Prompt appears in chat
-        │
-        ▼
-Assistant processes request
-        │
-        ▼
-Response displayed
-        │
-        ▼
-Conversation history updated
+```mermaid
+flowchart TD
+    A[User opens Dashboard]
+    B[AI Chat Panel loads]
+    C[Verify assistant is ready]
+    D[User enters prompt]
+    E[Click Send]
+    F[Prompt appears in chat]
+    G[Assistant processes request]
+    H[Response displayed]
+    I[Conversation history updated]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+```
 
 ---
 
