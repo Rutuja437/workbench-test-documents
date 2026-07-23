@@ -116,23 +116,7 @@ Expected
 
 ---
 
-## Scenario 5 - Context Awareness
-
-Current Context
-
-Dashboard
-
-Prompt
-
-show quick links
-
-Expected
-
-- AI responds using Dashboard context
-
----
-
-## Scenario 6 - Long Prompt
+## Scenario 5 - Long Prompt
 
 Verify long prompts are accepted.
 
@@ -143,7 +127,7 @@ Expected
 
 ---
 
-## Scenario 7 - Error Handling
+## Scenario 6 - Error Handling
 
 Simulate AI timeout or failure.
 
